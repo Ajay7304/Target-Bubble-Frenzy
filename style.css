@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Yanone Kaffeesatz";
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(165, 216, 165);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#panel{
+    height: 90%;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#ptop{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(62, 85, 62);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 25%;
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.elem h2{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.box{
+    padding: 5px 10px;
+    font-size: 25px;
+    color: rgb(61, 139, 61);
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+#pbtm{
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.bubble{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    height: 60px;
+    width: 60px;
+    background-color: rgb(72, 99, 72);
+    border-radius: 50%;
+}
+
+.bubble:hover{
+    background-color: rgb(38, 53, 38);;
+}
